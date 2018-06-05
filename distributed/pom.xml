@@ -3,11 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.hva</groupId>
-    <artifactId>parallel-computing</artifactId>
+    <groupId>com.hva.parallel-computing</groupId>
+    <artifactId>longest-common-subsequence</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <groupId>com.hva</groupId>
   <artifactId>distributed</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>distributed</name>
@@ -26,8 +25,8 @@
       <scope>test</scope>
     </dependency>
       <dependency>
-          <groupId>com.hva</groupId>
-          <artifactId>lcs</artifactId>
+          <groupId>com.hva.parallel-computing</groupId>
+          <artifactId>core</artifactId>
           <version>1.0-SNAPSHOT</version>
       </dependency>
   </dependencies>
