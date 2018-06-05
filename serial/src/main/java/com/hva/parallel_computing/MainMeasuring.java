@@ -3,12 +3,11 @@ package com.hva.parallel_computing;
 
 import com.hva.lcs.util.EventProfiler;
 import com.hva.lcs.util.LcsTestSet;
+import com.hva.lcs.util.LcsTestSetFactory;
 
 import java.util.ArrayList;
 
-import static com.hva.lcs.util.LcsInputStringFactory.LcsPositionWithinString;
-import static com.hva.lcs.util.LcsInputStringFactory.LcsPositionWithinString.START;
-import static com.hva.lcs.util.LcsInputStringFactory.LcsPositionWithinString.END;
+import static com.hva.lcs.util.LcsInputString.LcsPosition.START;
 
 public class MainMeasuring {
 
@@ -17,26 +16,23 @@ public class MainMeasuring {
         EventProfiler eventProfiler = new EventProfiler(true);
 
         // testSet sizes
-        int[] testSetSizes = new int[]{10, 100, 1000, 10000};
+        int[] testSetSizes = new int[]{10000, 100000, 1000000, 10000000};
 
         // Init algorithms
         SerialLcs serialLcs = new SerialLcs();
         String lcs = "ABC";
 
-        // Create input strings
+        // Create test sets
         ArrayList<LcsTestSet> testSets = new ArrayList<>();
-        String tempA;
-        String tempB;
         for (int testSetSize : testSetSizes) {
-            tempA = LcsInputStringFactory.createInputString(lcs, START, '+', testSetSize);
-            tempB = LcsInputStringFactory.createInputString(lcs, END, '-', testSetSize);
-            testSets.add(new LcsTestSet(tempA, tempB, lcs));
+            testSets.add(LcsTestSetFactory.CreateTestSet(lcs, testSetSize));
         }
 
+        // Start solving test sets
         eventProfiler.start();
         for (LcsTestSet testSet : testSets) {
             serialLcs.runOn(testSet);
-            eventProfiler.log("Finished testset with size of " + testSet.getTestSetSize());
+            eventProfiler.log("Finished test set with size of " + testSet.getTestSetSize());
         }
     }
 }

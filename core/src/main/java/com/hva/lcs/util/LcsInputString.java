@@ -2,15 +2,17 @@ package com.hva.lcs.util;
 
 public class LcsInputString {
 
+    private final char fillCharacter;
+    private final int size;
+
     public enum LcsPosition {
         START,
         END
     }
 
-    private String inputString;
-
     public LcsInputString(char fillCharacter, int size) {
-        this.inputString = generateLetterString(fillCharacter, size);
+        this.fillCharacter = fillCharacter;
+        this.size = size;
     }
 
     private String generateLetterString(char letter, int length) {
@@ -22,6 +24,7 @@ public class LcsInputString {
     }
 
     public String insertLcs(String lcs, LcsPosition position) {
+        String inputString = generateLetterString(fillCharacter, size - lcs.length());
         switch (position) {
             case START:
                 return lcs + inputString;

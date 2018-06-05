@@ -9,6 +9,7 @@
         <module name="benchmark" />
         <module name="core" />
         <module name="distributed" />
+        <module name="parallel" />
         <module name="serial" />
       </profile>
     </annotationProcessing>

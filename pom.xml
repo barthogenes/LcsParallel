@@ -12,5 +12,6 @@
     <module>presentationlayer</module>
     <module>distributed</module>
     <module>serial</module>
+      <module>parallel</module>
   </modules>
 </project>
