@@ -9,9 +9,11 @@
         <module name="benchmark" />
         <module name="core" />
         <module name="distributed" />
-        <module name="presentationlayer" />
         <module name="serial" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="presentationlayer" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

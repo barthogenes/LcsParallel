@@ -31,35 +31,35 @@
 
 package com.hva;
 
-import com.hva.lcs.implementation.LcsAlgorithm;
-import com.hva.lcs.implementation.LcsConcurrentDiagonal;
-import com.hva.lcs.implementation.LcsSequential;
-import com.hva.lcs.model.LcsTestSet;
-import com.hva.lcs.model.lengthtable.implementation.LengthTable;
+import com.hva.lcs.LcsAlgorithm;
+import com.hva.lcs.util.LcsTestSet;
 import org.openjdk.jmh.annotations.*;
-
 import java.util.concurrent.TimeUnit;
+
+import static com.hva.lcs.util.LcsInputStringFactory.LcsPositionWithinString.START;
 
 @Warmup(iterations = 5, time = 1, timeUnit = TimeUnit.SECONDS)
 @Measurement(iterations = 5, time = 1, timeUnit = TimeUnit.SECONDS)
 @Fork(1)
 @State(Scope.Thread)
 public class MyBenchmark {
-    public LcsAlgorithm lcsSequential;
-    public LcsAlgorithm lcsConcurrent;
-    public LcsTestSet ts1;
-    public LcsTestSet ts2;
-    public LcsTestSet ts3;
+    private LcsAlgorithm lcsSequential;
+    private LcsTestSet ts1;
+    private LcsTestSet ts2;
+    private LcsTestSet ts3;
 
-    public LcsTestSet ts4;
-    public LcsTestSet ts5;
-    public LcsTestSet ts6;
+    private LcsTestSet ts4;
+    private LcsTestSet ts5;
+    private LcsTestSet ts6;
 
     @Setup
     public void init() {
         // This is a demo/sample template for building your JMH benchmarks. Edit as needed.
         // Put your benchmark code here.
-         ts1 = new LcsTestSet("ADH",100);
+        int testSetSize1 = 1000;
+        String a =
+
+        ts1 = new LcsTestSet(LcsInputStringFactory.createInputString("ADH", START, '+'));
         ts2 = new LcsTestSet("ADH",1000);
         ts3 = new LcsTestSet("ADH",10000);
 

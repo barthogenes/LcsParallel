@@ -2,10 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a6c9968-c0d1-4948-8a80-9405374dc15e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/LcsAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benchmark/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentationlayer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/presentationlayer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benchmark/src/main/java/com/hva/MyBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark/src/main/java/com/hva/MyBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/MainExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/hva/MainExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/MainMeasuring.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/hva/MainMeasuring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/MainMeasuringCores.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/hva/MainMeasuringCores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/implementation/LcsAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/implementation/LcsConcurrentDiagonal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/implementation/LcsSequential.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/model/LcsTestSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/model/Slice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/model/TablePoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/model/lengthtable/implementation/AtomicLengthTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/model/lengthtable/implementation/LengthTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/model/lengthtable/interfaces/AbstractLengthTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/model/lengthtable/interfaces/ILengthTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/model/lengthtable/interfaces/LengthTableDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/model/tablelog/ActionReplayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/model/tablelog/CellReadAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/model/tablelog/CellWriteAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/model/tablelog/LengthTableWithLogging.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/model/tablelog/TableOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/RandomUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/com/hva/LongestCommonSubsequenceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/com/hva/lcs/implementation/LcsConcurrentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/com/hva/lcs/implementation/LcsSequentialTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/com/hva/lcs/model/LengthTableSequentialTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/com/hva/lcs/model/tablelog/LengthTableWithLoggingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed/src/main/java/com/hva/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed/src/main/java/com/hva/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed/src/main/java/com/hva/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed/src/main/java/com/hva/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentationlayer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentationlayer/src/main/deploy/package/macosx/presentationlayer.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentationlayer/src/main/deploy/package/windows/presentationlayer.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentationlayer/src/main/java/com/hva/gui/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentationlayer/src/main/java/com/hva/gui/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentationlayer/src/main/java/com/hva/gui/controller/TableGridPane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentationlayer/src/main/resources/fxml/hello.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentationlayer/src/main/resources/images/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentationlayer/src/main/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentationlayer/src/main/resources/styles/styles.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/serial/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/serial/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serial/src/main/java/com/hva/parallel_computing/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/serial/src/test/java/com/hva/parallel_computing/AppTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/lcs/target/" />
     <ignored path="$PROJECT_DIR$/presentationlayer/target/" />
@@ -30,20 +71,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serial/src/test/java/com/hva/parallel_computing/AppTest.java">
+      <file leaf-file-name="LcsTestSet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/LcsTestSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="136">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+              <folding>
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SerialLcsTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/serial/src/test/java/com/hva/parallel_computing/SerialLcsTest.java">
+      <file leaf-file-name="LcsInputString.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/LcsInputString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="561">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyBenchmark.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/benchmark/src/main/java/com/hva/MyBenchmark.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LcsTestSetFactory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/LcsTestSetFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LcsAlgorithm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/lcs/LcsAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/MainExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-68">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainMeasuring.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serial/src/main/java/com/hva/parallel_computing/MainMeasuring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,8 +150,17 @@
       <file leaf-file-name="SerialLcs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serial/src/main/java/com/hva/parallel_computing/SerialLcs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="221">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serial/src/main/java/com/hva/parallel_computing/MainExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -62,6 +170,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -70,6 +179,9 @@
     <findStrings>
       <find>\@FXML\n    private void setupLengthsTableAndActionReplayer\(\) \{\n        String a \= textFieldA\.getText\(\)\;\n        String b \= textFieldB\.getText\(\)\;\n        lengthTable \= new LengthTableWithLogging\(new LengthTable\(\)\)\;\n        lengthTable\.setStrings\(a\, b\)\;\n\n        tableGridPane\.setupLengthsTable\(lengthTable\)\;\n        LcsAlgorithm lcs \= new LcsConcurrentDiagonal\(lengthTable\, 1\, 500\)\;\n        textFieldLcs\.setText\(lcs\.findLongestCommonSubsequence\(a\, b\, false\, true\)\)\;\n\n        actionReplayer \= new ActionReplayer\(lengthTable\.getActionsLog\(\)\)\;\n\n        actionTotalLabel\.setText\(actionReplayer\.getActionsTotal\(\) \+ \&quot;\&quot;\)\;\n\n    \}\n</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,15 +203,42 @@
         <option value="$PROJECT_DIR$/distributed/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/serial/src/main/java/com/hva/parallel-computing/App.java" />
-        <option value="$PROJECT_DIR$/serial/src/main/java/com/hva/parallel_computing/App.java" />
         <option value="$PROJECT_DIR$/core/pom.xml" />
         <option value="$PROJECT_DIR$/serial/src/test/java/com/hva/parallel-computing/AppTest.java" />
         <option value="$PROJECT_DIR$/benchmark/pom.xml" />
         <option value="$PROJECT_DIR$/presentationlayer/pom.xml" />
         <option value="$PROJECT_DIR$/serial/pom.xml" />
         <option value="$PROJECT_DIR$/serial/src/test/java/com/hva/parallel_computing/SerialLcs.java" />
-        <option value="$PROJECT_DIR$/serial/src/main/java/com/hva/parallel_computing/SerialLcs.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/implementation/LcsConcurrentDiagonal.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/implementation/LcsSequential.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/MainMeasuringCores.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/com/hva/LongestCommonSubsequenceTest.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/com/hva/lcs/implementation/LcsConcurrentTest.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/com/hva/lcs/implementation/LcsSequentialTest.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/RandomUtil.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/LcsTestSetCreationOptions.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/lcs_test_set/LcsTestSetCreationOptions.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/lcs_test_set/CreationOptions.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/lcs_test_set/LcsTestSet.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/lcs_test_set/LcsTestSetFactory.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/com/hva/lcs/util/LcsTestSetFactoryTest.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/LcsString.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/implementation/LcsAlgorithm.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/MainExample.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/com/hva/lcs/model/LengthTableSequentialTest.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/MainMeasuring.java" />
+        <option value="$PROJECT_DIR$/core/src/test/java/com/hva/lcs/util/LcsInputStringFactoryTest.java" />
         <option value="$PROJECT_DIR$/serial/src/test/java/com/hva/parallel_computing/SerialLcsTest.java" />
+        <option value="$PROJECT_DIR$/serial/src/main/java/com/hva/parallel_computing/SerialLcs.java" />
+        <option value="$PROJECT_DIR$/serial/src/main/java/com/hva/parallel_computing/App.java" />
+        <option value="$PROJECT_DIR$/serial/src/main/java/com/hva/parallel_computing/MainExample.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/LcsAlgorithm.java" />
+        <option value="$PROJECT_DIR$/serial/src/main/java/com/hva/parallel_computing/MainMeasuring.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/LcsTestSet.java" />
+        <option value="$PROJECT_DIR$/benchmark/src/main/java/com/hva/MyBenchmark.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/LcsInputStringFactory.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/LcsInputString.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/LcsTestSetFactory.java" />
       </list>
     </option>
   </component>
@@ -152,6 +291,36 @@
             <path>
               <item name="parallel-computing" type="b2602c69:ProjectViewProjectNode" />
               <item name="LcsParallel" type="462c0819:PsiDirectoryNode" />
+              <item name="benchmark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parallel-computing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LcsParallel" type="462c0819:PsiDirectoryNode" />
+              <item name="benchmark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parallel-computing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LcsParallel" type="462c0819:PsiDirectoryNode" />
+              <item name="benchmark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parallel-computing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LcsParallel" type="462c0819:PsiDirectoryNode" />
+              <item name="benchmark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hva" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parallel-computing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LcsParallel" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -170,7 +339,64 @@
             <path>
               <item name="parallel-computing" type="b2602c69:ProjectViewProjectNode" />
               <item name="LcsParallel" type="462c0819:PsiDirectoryNode" />
-              <item name="presentationlayer" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parallel-computing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LcsParallel" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hva" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parallel-computing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LcsParallel" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hva" type="462c0819:PsiDirectoryNode" />
+              <item name="lcs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parallel-computing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LcsParallel" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hva" type="462c0819:PsiDirectoryNode" />
+              <item name="lcs" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parallel-computing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LcsParallel" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parallel-computing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LcsParallel" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parallel-computing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LcsParallel" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parallel-computing" type="b2602c69:ProjectViewProjectNode" />
@@ -241,6 +467,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/serial/src/test/java/com/hva" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/core" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -251,7 +479,21 @@
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.hva.lcs.util" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hva.lcs" />
+      <recent name="com.hva.lcs.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bart\IdeaProjects\LcsParallel\serial\src\main\java\com\hva\parallel_computing" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hva.lcs.util" />
       <recent name="com.hva.parallel_computing" />
       <recent name="com.hva.lcs.implementation" />
     </key>
@@ -271,18 +513,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hva.parallel.App" />
-      <module name="serial" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hva.parallel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SerialLcsTest.findLongestCommonSubsequence">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hva.parallel_computing.App" />
       <module name="serial" />
@@ -294,19 +525,100 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hva.gui.MainApp" />
-      <module name="presentationlayer" />
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="LcsInputStringFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hva.gui.*" />
+          <option name="PATTERN" value="com.hva.lcs.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.hva.lcs.util" />
+      <option name="MAIN_CLASS_NAME" value="com.hva.lcs.util.LcsInputStringFactoryTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="LcsTestSetFactoryTest.createTestSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hva.lcs.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.hva.lcs.util" />
+      <option name="MAIN_CLASS_NAME" value="com.hva.lcs.util.LcsTestSetFactoryTest" />
+      <option name="METHOD_NAME" value="createTestSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SerialLcsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hva.parallel_computing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.hva.parallel_computing" />
+      <option name="MAIN_CLASS_NAME" value="com.hva.parallel_computing.SerialLcsTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SerialLcsTest.findLongestCommonSubsequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="serial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hva.parallel_computing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.hva.parallel_computing" />
+      <option name="MAIN_CLASS_NAME" value="com.hva.parallel_computing.SerialLcsTest" />
+      <option name="METHOD_NAME" value="findLongestCommonSubsequence" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -347,15 +659,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MainApp" />
-      <item itemvalue="Application.App" />
       <item itemvalue="Application.App (1)" />
+      <item itemvalue="JUnit.LcsTestSetFactoryTest.createTestSet" />
+      <item itemvalue="JUnit.LcsInputStringFactoryTest" />
+      <item itemvalue="JUnit.SerialLcsTest" />
+      <item itemvalue="JUnit.SerialLcsTest.findLongestCommonSubsequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SerialLcsTest.findLongestCommonSubsequence" />
+        <item itemvalue="JUnit.SerialLcsTest" />
+        <item itemvalue="JUnit.LcsInputStringFactoryTest" />
+        <item itemvalue="JUnit.LcsTestSetFactoryTest.createTestSet" />
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.MainApp" />
       </list>
     </recent_temporary>
   </component>
@@ -384,19 +700,41 @@
       <workItem from="1528114987315" duration="250000" />
       <workItem from="1528117012159" duration="456000" />
       <workItem from="1528117995759" duration="1744000" />
-      <workItem from="1528180429609" duration="6610000" />
+      <workItem from="1528180429609" duration="23862000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="LcsTestSetFactoryTest_createTestSet - 2018.06.05 at 13h 05m 39s.xml">
+      <configuration name="LcsTestSetFactoryTest.createTestSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LcsTestSetFactoryTest_createTestSet - 2018.06.05 at 13h 06m 27s.xml">
+      <configuration name="LcsTestSetFactoryTest.createTestSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LcsInputStringFactoryTest - 2018.06.05 at 15h 41m 45s.xml">
+      <configuration name="LcsInputStringFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerialLcsTest - 2018.06.05 at 16h 07m 36s.xml">
+      <configuration name="SerialLcsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerialLcsTest_findLongestCommonSubsequence - 2018.06.05 at 16h 08m 17s.xml">
+      <configuration name="SerialLcsTest.findLongestCommonSubsequence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerialLcsTest_findLongestCommonSubsequence - 2018.06.05 at 16h 09m 48s.xml">
+      <configuration name="SerialLcsTest.findLongestCommonSubsequence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerialLcsTest_findLongestCommonSubsequence - 2018.06.05 at 16h 10m 05s.xml">
+      <configuration name="SerialLcsTest.findLongestCommonSubsequence" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27369000" />
+    <option name="totallyTimeSpent" value="44621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50512445" side_tool="true" visible="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5014641" side_tool="true" visible="true" weight="0.3290938" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -405,18 +743,19 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6039531" weight="0.3990461" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.60322106" weight="0.3990461" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4941435" weight="0.3290938" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49121523" weight="0.3290938" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49487555" visible="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49121523" weight="0.3290938" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49853587" visible="true" weight="0.3290938" />
       <window_info id="Learn" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -425,7 +764,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,9 +777,13 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="a.charAt(i)" />
+        <watch expression="b.charAt(j)" />
+      </configuration>
       <configuration name="Application">
         <watch expression="getCell(x, y).getBackground()" language="JAVA" />
       </configuration>
@@ -457,109 +799,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lcs/src/main/java/com/hva/lcs/implementation/LcsCustom.java" />
-    <entry file="file://$PROJECT_DIR$/distributed/src/test/java/com/hva/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed/src/main/java/com/hva/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/java/com/hva/gui/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/distributed/src/main/java/com/hva/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lcs/src/main/java/com/hva/lcs/implementation/LcsAlgorithm.java" />
-    <entry file="file://$PROJECT_DIR$/lcs/src/main/java/com/hva/lcs/model/lengthtable/interfaces/ILengthTable.java" />
-    <entry file="file://$PROJECT_DIR$/lcs/src/main/java/com/hva/lcs/model/lengthtable/interfaces/AbstractLengthTable.java" />
-    <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/java/com/hva/gui/controller/TableGridPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lcs/src/main/java/com/hva/lcs/implementation/LcsSequential.java" />
-    <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/java/com/hva/gui/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/java/com/hva/gui/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lcs/src/main/java/com/hva/lcs/implementation/LcsCustom.java" />
-    <entry file="file://$PROJECT_DIR$/lcs/src/main/java/com/hva/lcs/implementation/LcsAlgorithm.java" />
-    <entry file="file://$PROJECT_DIR$/lcs/src/main/java/com/hva/lcs/implementation/LcsAlgorithm.java" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_152/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_152/jre/lib/rt.jar!/sun/reflect/misc/MethodUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2769">
-          <caret line="180" column="31" selection-start-line="180" selection-start-column="31" selection-end-line="180" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_152/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="380" selection-start-line="380" selection-end-line="380" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_152/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="435" selection-start-line="435" selection-end-line="435" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_152/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="1772" selection-start-line="1772" selection-end-line="1772" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lcs/src/main/java/com/hva/lcs/implementation/LcsAlgorithm.java" />
-    <entry file="file://$PROJECT_DIR$/lcs/src/main/java/com/hva/lcs/model/lengthtable/interfaces/ILengthTable.java" />
-    <entry file="file://$PROJECT_DIR$/lcs/src/main/java/com/hva/lcs/model/lengthtable/interfaces/AbstractLengthTable.java" />
-    <entry file="file://$PROJECT_DIR$/lcs/src/main/java/com/hva/lcs/implementation/LcsSequential.java" />
-    <entry file="file://$PROJECT_DIR$/presentationlayer/src/main/java/com/hva/gui/controller/TableGridPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="79" column="32" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/distributed/src/test/java/com/hva/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -592,13 +831,6 @@
     <entry file="file://$PROJECT_DIR$/lcs/src/main/java/com/hva/lcs/util/RandomUtil.java" />
     <entry file="file://$PROJECT_DIR$/distributed/src/main/java/com/hva/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/benchmark/src/main/java/com/hva/MyBenchmark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/distributed/src/main/java/com/hva/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -636,13 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serial/src/main/java/com/hva/parallel_computing/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -671,13 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/MainExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/presentationlayer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -692,24 +910,247 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serial/src/test/java/com/hva/parallel_computing/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/EventProfiler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="119">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serial/src/main/java/com/hva/parallel_computing/SerialLcs.java">
+    <entry file="file://$PROJECT_DIR$/serial/src/test/java/com/hva/parallel_computing/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="153">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/lcs/implementation/LcsConcurrentDiagonal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="17" selection-start-line="16" selection-start-column="9" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/lcs/implementation/LcsSequential.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/MainMeasuringCores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="48" column="11" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/RandomUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/lcs_test_set/CreationOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/lcs/model/LcsTestSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/com/hva/lcs/implementation/LcsConcurrentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/com/hva/lcs/implementation/LcsSequentialTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/com/hva/lcs/model/tablelog/LengthTableWithLoggingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/com/hva/lcs/util/LcsTestSetFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/com/hva/lcs/model/LengthTableSequentialTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="217" column="8" selection-start-line="11" selection-start-column="5" selection-end-line="217" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/serial/src/test/java/com/hva/parallel_computing/SerialLcsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="170">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/MainMeasuring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/com/hva/LongestCommonSubsequenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="18" selection-start-line="12" selection-start-column="9" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serial/src/main/java/com/hva/parallel_computing/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serial/src/main/java/com/hva/parallel_computing/MainExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serial/src/main/java/com/hva/parallel_computing/MainMeasuringCores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="52" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/MainExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serial/src/main/java/com/hva/parallel_computing/SerialLcs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serial/src/main/java/com/hva/parallel_computing/MainMeasuring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-core/1.18/jmh-core-1.18-sources.jar!/org/openjdk/jmh/annotations/Warmup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-core/1.18/jmh-core-1.18-sources.jar!/org/openjdk/jmh/annotations/Fork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/lcs/LcsAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/test/java/com/hva/lcs/util/LcsInputStringFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmark/src/main/java/com/hva/MyBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/LcsTestSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/LcsInputStringFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/LcsInputString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/hva/lcs/util/LcsTestSetFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -765,12 +1206,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>benchmark</last-edited>
+          <last-edited>serial</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

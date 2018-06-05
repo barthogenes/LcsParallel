@@ -2,7 +2,6 @@ package com.hva;
 
 import com.hva.lcs.model.lengthtable.interfaces.ILengthTable;
 import com.hva.lcs.model.lengthtable.implementation.LengthTable;
-import com.hva.lcs.model.Slice;
 
 import javax.jms.*;
 
